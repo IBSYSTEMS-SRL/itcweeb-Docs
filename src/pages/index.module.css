@@ -21,3 +21,29 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.features {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.featureImage {
+  max-width: 80px;
+  margin-bottom: 15px;
+}
