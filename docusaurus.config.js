@@ -22,8 +22,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'IBSYSTEMS', // Usually your GitHub org/user name.
-  projectName: 'itranscard1.0', // Usually your repo name.
+  organizationName: 'IBSYSTEMS-SRL', // Usually your GitHub org/user name.
+  projectName: 'itcweeb-Docs', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

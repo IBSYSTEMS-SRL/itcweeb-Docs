@@ -23,7 +23,7 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/docs/instalacion/requisitos">
             📖 Ver Documentación
           </Link>
-          <Link className="button button--info button--lg" to="docs/instalacion">
+          <Link className="button button--info button--lg" to="/docs">
             ⚙️ Guía de Instalación
           </Link>
         </div>
@@ -72,8 +72,15 @@ export default function Home() {
       <HomepageHeader />
       <main>
         {/* <FeaturesSection /> */}
-        <HomepageFeatures />
-      </main>
+        </main>
+      <HomepageFeatures />
+      <div className="container">
+        <h2 className="text--center">¿Listo para empezar?</h2>
+        <div className="text--center margin-bottom--lg">
+          <Link className="button button--primary button--lg" to="/docs/instalacion/requisitos">
+            Comienza Ahora
+          </Link>
+        </div>
+      </div>
     </Layout>
-  );
-}
+        )}
