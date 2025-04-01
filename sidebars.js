@@ -21,29 +21,39 @@ const sidebars = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    'introduccion',
-    'arquitectura',
-    'instalacion',
     {
       type: 'category',
-      label: 'Frontend',
-      items: ['frontend/overview', 'frontend/estructura', 'frontend/estado', 'frontend/autenticacion', ],
+      label: 'Instalación',
+      items: ['instalacion/requisitos','instalacion/instalacion','instalacion/despliegue'], 
     },
     {
       type: 'category',
-      label: 'Backend',
-      items: ['backend/overview', 'backend/api', 'backend/autenticacion', 'backend/base-de-datos'],
-    },
-    {
-      type: 'category',
-      label: 'Componentes',
+      label: 'Arquitectura',
       items: [
-        'frontend/components/layout/intro',  // Enlaza a Button.md
-        'frontend/components/sauc0017/intro',  // Enlaza a sauc0017.md
+        'arquitectura/overview','arquitectura/frontend','arquitectura/backend','arquitectura/database'   // Enlaza a Button.md
 
       ],
     },
-    'despliegue',
+    {
+      type: 'category',
+      label: 'Api',
+      items: [
+        'api/auth',  // Enlaza a Button.md
+        'api/endpoints',  // Enlaza a sauc0017.md
+        'api/erros',  // Enlaza a sauc0017.md
+
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Development',
+      items: [
+        'development/setup',  // Enlaza a Button.md
+        'development/coding-style',  // Enlaza a Button.md
+        'development/contributing',  // Enlaza a Button.md
+
+      ],
+    },
   ],
 };
 
